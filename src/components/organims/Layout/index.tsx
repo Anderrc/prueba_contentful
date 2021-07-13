@@ -12,7 +12,7 @@ const Index = (props: IProps) => {
     return (
         <>
             <Header></Header>
-            <main className="o-layout__main">main</main>
+            <main className="o-layout__main">{children}</main>
             <Footer></Footer>
         </>
     );
